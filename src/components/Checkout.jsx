@@ -10,6 +10,7 @@ const Checkout = () => {
   return (
     <Wrapper>
       <p>Total Items:</p>
+      
       <h4>{itemCount}</h4>
       <p>Total Payment:</p>
       <h4>{'\u20B9' +(total)}</h4>
